@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device=width, initial-scale=0">
+    <title>RNHS</title>
+    <link rel="stylesheet" href="leander.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="rnhs.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Mission&Vision.html">MISION & VISION</a></li>    
+                <li><a href="strands.html">STRANDS</a></li>
+                <li><a href="staff.html">FACULTY & STAFF</a></li>
+                <li><a href="Studev.html">STUDEV</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+<h1>MISSION AND VISION</h1>
+
+</section>
+
+<!-------StuDev------->
+
+<section class="studev">
+    <div class="row">
+        <div class="studev-col">
+            <h1>MISSION & VISION</h1>
+            <p>ITo protect and promote the right of every Filipino to quality, equitable, culture-based,
+                 and complete basic education where: Students learn in a child-friendly, gender-sensitive, safe, and motivating environment.
+                Teachers facilitate learning and constantly nurture every learner. Administrators and staff, as stewards of the institution,
+                ensure an enabling and supportive environment for effective learning to happen. Family, community, and other stakeholders are
+                actively engaged and share responsibility for developing life-long learners. We dream of Filipinos who passionately love their
+                country and whose values and competencies enable them to realize their full potential and contribute meaningfully to building the nation.
+             As a learner-centered public institution, the Department of Education continuously improves itself to better serve its stakeholders.
+            </p>
+        </div>
+        <div class="deped-col">
+            <img src="deped.jpg">
+        </div>
+    </div>
+
+</section>
+
+
+<!-------Footer-------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+<!--------JavaScript for Toggle Menu------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

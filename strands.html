@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device=width, initial-scale=0">
+    <title>RNHS</title>
+    <link rel="stylesheet" href="leander.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="rnhs.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Mission&Vision.html">MISSION & VISION</a></li>    
+                <li><a href="strands.html">STRANDS</a></li>
+                <li><a href="staff.html">FACULTY & STAFF</a></li>
+                <li><a href="Studev.html">STUDEV</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+<h1>STRANDS</h1>
+
+</section>
+
+<!------- Strands ------>
+
+<section class="strands">
+    <h1>Strands We Offer</h1>
+    <p>There is a lot of strands that we offer here</p>
+
+    <div class="row">
+        <div class="strands-col">
+            <h3>STEM</h3>
+            <p>The STEM strand is an inquiry and research-based program for Senior High School.
+                The learners are inclined to researches which will give them the edge 
+                to become excellent in the pursuit of their college degrees.
+                 These are the subjects that every student has to take in any strand of his choice.</p>
+        </div>
+        <div class="strands-col">
+            <h3>HUMSS</h3>
+            <p>HUMSS is short for humanities and social sciences.
+                It is an academic strand covering various fields that deal with the exploration of the human condition using analytical,
+                critical, and empirical ways and thereby studying changes in society and human behavior.</p>
+        </div>
+        <div class="strands-col">
+            <h3>ABM</h3>
+            <p>The ABM (Accountancy, Business, and Management) Strand is designed for
+             students who are interested in business, finance, entrepreneurship, and accounting.
+              The curriculum of the ABM strand provides a strong foundation in the principles of
+             business and management, as well as financial and accounting concepts.</p>
+        </div>
+    </div>
+    <div class="row">
+   <div class="strands-col">
+    <h3>GAS</h3>
+    <p>GAS is an acronym for General Academic Strand.
+      It takes a general approach to prepare students for university life.
+      Compared to other strands, students can expect to tackle different disciplines.
+      This can cover various subjects and topics such as Humanities,
+      Management, Social Sciences, and even Organization.</p>
+</div>
+<div class="strands-col">
+    <h3>TVL-ICT</h3>
+    <p>ICT is a Senior High School strand that prepares you for a career in Information and Communication Technology.
+         It equips you with advanced skills in computer systems, programming, creating web pages, and basic animation.
+          What you will gain from the ICT Strand: Learn about programming, animation or illustration.</p>
+</div>
+<div class="strands-col">
+    <h3>TVL-H.E.</h3>
+    <p>Home Economics aims to give you job-ready skills that can help you in finding the right employment.
+         This is our classic idea of the TLE subject. Those who are interested in housekeeping, tailoring, care giving,
+          food and beverage services, bread and pastry services, tourism and handicrafts should take this.</p>
+</div>
+</div>
+
+   <div class="row">
+    <div class="strands-col">
+        <h3>TVL-SMAW</h3>
+        <p>SMAW is one of the welding processes students learn in the Welding Technology.
+        SMAW is one of the oldest types of welding, dating to 1890 when Charles L. Coffin patented the process.
+        SMAW is a manual arc welding process that remains one of the most commonly used welding processes.
+         It can be used for both repair welding and production, and it can be used in all welding positions on all ferrous metals.
+        </p>
+    </div>
+</div>
+
+
+
+</section>
+
+
+<!-------Footer-------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+<!--------JavaScript for Toggle Menu------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
